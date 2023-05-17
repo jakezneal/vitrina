@@ -21,6 +21,9 @@ export default defineNuxtConfig({
     app: {
         head: {
             title,
+            htmlAttrs: {
+                lang: 'en',
+            },
             meta: [
                 {
                     name: 'description',
