@@ -43,6 +43,8 @@
     .list {
         display: flex;
         gap: 20px;
+        margin: 0;
+        padding: 0;
 
         @media (min-width: 992px) {
             gap: 40px;
