@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <section class="section">
-            <h1 class="title">👋 Ahoy! I'm a freelance front-end engineer based in the UK.</h1>
+            <h1 class="page-title">👋 Ahoy! I'm a freelance front-end engineer based in the UK.</h1>
             <p class="intro-text">I'm passionate about creating responsive, performant and accessible websites and web apps using HTML, CSS and JavaScript.</p>
         </section>
 
@@ -99,21 +99,6 @@
 <style lang="scss" scoped>
     @function rem($size) {
         @return calc($size / 16px) * 1rem;
-    }
-
-    .title {
-        font-size: rem(48px);
-        line-height: 1.25;
-        margin-bottom: rem(40px);
-
-        @media (min-width: 768px) {
-            font-size: rem(64px);
-        }
-
-        @media (min-width: 992px) {
-            font-size: rem(96px);
-            margin-bottom: rem(60px);
-        }
     }
 
     .intro-text {

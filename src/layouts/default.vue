@@ -10,13 +10,13 @@
 </template>
 
 <script lang="ts" setup>
-    const { appTitle } = useRuntimeConfig();
+    const config = useRuntimeConfig();
 
     useHead({
         titleTemplate: (titleChunk) => {
             return titleChunk
-                ? `${ titleChunk } | ${ appTitle }`
-                : appTitle;
+                ? `${ titleChunk } | ${ config.public.appTitle }`
+                : config.public.appTitle;
         }
     });
 </script>

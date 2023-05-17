@@ -87,7 +87,10 @@
     }
 
     .icon {
-        margin-right: rem(10px);
+
+        @media (min-width: 576px) {
+            margin-right: rem(10px);
+        }
     }
 
     .intro-wrapper {

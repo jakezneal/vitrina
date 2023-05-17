@@ -1,7 +1,7 @@
 <template>
     <section class="container">
         <div class="section">
-            <h1 class="section-heading">💼 Work</h1>
+            <h1 class="page-title">💼 Work</h1>
 
             <ContentList path="/work" v-slot="{ list }">
                 <ul role="list" class="items">
@@ -37,7 +37,7 @@
     }
 
     .item {
-        font-size: rem(42px);
+        font-size: rem(34px);
         line-height: 1.25;
 
         & + & {
@@ -53,11 +53,11 @@
         }
 
         @media (min-width: 768px) {
-            font-size: rem(58px);
+            font-size: rem(52px);
         }
 
         @media (min-width: 992px) {
-            font-size: rem(82px);
+            font-size: rem(78px);
         }
     }
 

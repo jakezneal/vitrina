@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="section">
-            <h1 class="section-heading">🛠 Skills</h1>
+            <h1 class="page-title">🛠 Skills</h1>
             <p>
                 Whilst I started my professional career as a full-stack developer,
                 I made the switch to focus mostly on front-end over {{ frontEndExperience }}

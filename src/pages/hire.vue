@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div class="section">
-            <h1 class="section-heading">👷 Hire me</h1>
+            <h1 class="page-title">👷 Hire me</h1>
             <p class="intro-text">
                 I'm currently open to freelance opportunities, so if you'd like
                 to work with me then either
