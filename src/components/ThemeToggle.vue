@@ -13,7 +13,7 @@
         @click="$colorMode.preference = 'dark'"
         :class="cssClass"
     >
-        🌙
+        🌑
     </button>
 </template>
 
