@@ -9,7 +9,7 @@
 - [ ] set up unit tests
 - [ ] tidy up scss files
 - [ ] removed duplicated `rem` function from sfc
-- [ ] add 'skip to content link'
+- [-] add 'skip to content link'
 - [-] add schema data and open graph meta
 - [-] add 'skills' page
 - [ ] add 'bounce' animation to arrow on recent work section
