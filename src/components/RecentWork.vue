@@ -2,15 +2,35 @@
     <article class="section">
         <h2 class="section-heading">🧑🏻‍💻 Recent work</h2>
 
-        <nuxt-img
-            src="/images/work/yourparkingspace-website.png"
-            format="webp"
-            quality="100"
-            alt="A screenshot of the YourParkingSpace website"
-            :width="1110"
-            :height="555"
-            class="image"
-        />
+        <div class="image-container">
+            <NuxtImg
+                src="/images/work/mobile/yourparkingspace-website.png"
+                format="webp"
+                quality="100"
+                alt="A screenshot of the YourParkingSpace website on mobile"
+                :width="400"
+                :height="650"
+                class="image image-mobile"
+            />
+            <NuxtImg
+                src="/images/work/tablet/yourparkingspace-website.png"
+                format="webp"
+                quality="100"
+                alt="A screenshot of the YourParkingSpace website on tablet"
+                :width="768"
+                :height="500"
+                class="image image-tablet"
+            />
+            <NuxtImg
+                src="/images/work/desktop/yourparkingspace-website.png"
+                format="webp"
+                quality="100"
+                alt="A screenshot of the YourParkingSpace website on desktop"
+                :width="1110"
+                :height="555"
+                class="image image-desktop"
+            />
+        </div>
 
         <h3>🚗 YourParkingSpace</h3>
         <p class="intro">I'm currrently the Lead Front-End Engineer at YourParkingSpace where I've been working on building our new website from the ground up, hiring and leading a team, and setting the technical direction of all our front-end projects.</p>
@@ -108,6 +128,14 @@
 
         & + & {
             margin-top: 10px;
+        }
+    }
+
+    .image-container {
+        &,
+        > img {
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 </style>

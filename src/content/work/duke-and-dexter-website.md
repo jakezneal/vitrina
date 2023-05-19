@@ -3,7 +3,10 @@ title: Duke + Dexter
 icon: 👞
 type: Website
 intro: Improving the UI and UX of key pages for a bespoke shoe ecommerce website.
-image: '/images/work/duke-and-dexter-website.png'
+image:
+    mobile: '/images/work/mobile/duke-and-dexter-website.png'
+    tablet: '/images/work/tablet/duke-and-dexter-website.png'
+    desktop: '/images/work/desktop/duke-and-dexter-website.png'
 technologies:
     - Shopify
 ---

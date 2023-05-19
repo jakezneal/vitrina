@@ -8,13 +8,31 @@
         </div>
         <div class="image-container">
             <NuxtImg
-                :src="data.image"
+                :src="data.image.mobile"
                 format="webp"
                 quality="100"
-                :alt="`A screenshot of the ${ data.title } ${ data.type }`"
+                :alt="`A screenshot of the ${ data.title } ${ data.type } on mobile`"
+                :width="400"
+                :height="650"
+                class="image image-mobile"
+            />
+            <NuxtImg
+                :src="data.image.tablet"
+                format="webp"
+                quality="100"
+                :alt="`A screenshot of the ${ data.title } ${ data.type } on tablet`"
+                :width="768"
+                :height="500"
+                class="image image-tablet"
+            />
+            <NuxtImg
+                :src="data.image.desktop"
+                format="webp"
+                quality="100"
+                :alt="`A screenshot of the ${ data.title } ${ data.type } on desktop`"
                 :width="1480"
                 :height="740"
-                class="image"
+                class="image image-desktop"
             />
         </div>
         <div class="container">
@@ -58,10 +76,14 @@
     }
 
     .image-container {
-        margin-left: auto;
-        margin-right: auto;
         margin-bottom: rem(20px);
         width: 100%;
+
+        &,
+        > img {
+            margin-left: auto;
+            margin-right: auto;
+        }
 
         @media (min-width: 576px) {
             max-width: 560px;

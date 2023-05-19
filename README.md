@@ -1,7 +1,7 @@
 # vitrina
 
 ## todo
-- [ ] add mobile screenshots to work page on smaller screens
+- [-] add mobile screenshots to work page on smaller screens
 - [ ] add some animation/interaction
 - [ ] set up blog
 - [ ] set up storybook

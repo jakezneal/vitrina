@@ -3,7 +3,10 @@ title: YourParkingSpace
 icon: 🚗
 type: Website
 intro: A clean, scalable, performant website built with usability in mind.
-image: '/images/work/yourparkingspace-website.png'
+image:
+    mobile: '/images/work/mobile/yourparkingspace-website.png'
+    tablet: '/images/work/tablet/yourparkingspace-website.png'
+    desktop: '/images/work/desktop/yourparkingspace-website.png'
 technologies:
     - Vue.js
     - Nuxt.js

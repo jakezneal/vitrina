@@ -3,7 +3,10 @@ title: BuryLCO
 icon: 🧑‍🏫
 type: Training Platform
 intro: Building a greefield training platform to digitalise an existing archaic process of providing training.
-image: '/images/work/burylco-training-platform.png'
+image:
+    mobile: '/images/work/mobile/burylco-training-platform.png'
+    tablet: '/images/work/tablet/burylco-training-platform.png'
+    desktop: '/images/work/desktop/burylco-training-platform.png'
 technologies:
     - Vue.js
     - Nuxt.js

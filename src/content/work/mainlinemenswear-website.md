@@ -3,7 +3,10 @@ title: Mainline Menswear
 icon: 👕
 type: Website
 intro: Working to improve Core Web Vitals and performance across an ecommerce store.
-image: '/images/work/mainline-menswear-website.png'
+image:
+    mobile: '/images/work/mobile/mainline-menswear-website.png'
+    tablet: '/images/work/tablet/mainline-menswear-website.png'
+    desktop: '/images/work/desktop/mainline-menswear-website.png'
 technologies:
     - Vue.js
     - Nuxt.js
