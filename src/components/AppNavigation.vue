@@ -19,7 +19,7 @@
     const items = computed(() => [
         {
             text: 'Work',
-            icon: '💼',
+            icon: '🧑🏻‍💻',
             link: 'work',
         },
         {

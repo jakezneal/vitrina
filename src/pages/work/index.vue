@@ -1,7 +1,7 @@
 <template>
     <section class="container">
         <div class="section">
-            <h1 class="page-title">💼 Work</h1>
+            <h1 class="page-title">🧑🏻‍💻 Work</h1>
 
             <ContentList path="/work" v-slot="{ list }">
                 <ul role="list" class="items">

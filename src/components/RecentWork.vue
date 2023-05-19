@@ -1,6 +1,6 @@
 <template>
     <article class="section">
-        <h2 class="section-heading">💼 Recent work</h2>
+        <h2 class="section-heading">🧑🏻‍💻 Recent work</h2>
 
         <nuxt-img
             src="/images/work/yourparkingspace-website.png"
