@@ -14,7 +14,7 @@
 - [-] add 'skills' page
 - [ ] add 'bounce' animation to arrow on recent work section
 - [ ] add `@nuxt/devtools`
-- [ ] get dynamic titles working on work case study pages
+- [-] get dynamic titles working on work case study pages
 - [ ] fix `@nuxt/image`
 - [-] add favicon
 - [ ] refactor to use typescript

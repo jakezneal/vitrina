@@ -48,7 +48,7 @@
     const { data } = await useAsyncData(slug, () => queryContent(`/work/${ slug }`).findOne());
 
     useHead({
-        title: 'Case Study | Work',
+        title: `${ data.value?.title } | Work`,
     });
 </script>
 
