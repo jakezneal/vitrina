@@ -16,5 +16,5 @@
 - [ ] add `@nuxt/devtools`
 - [ ] get dynamic titles working on work case study pages
 - [ ] fix `@nuxt/image`
-- [ ] add favicon
+- [-] add favicon
 - [ ] refactor to use typescript
