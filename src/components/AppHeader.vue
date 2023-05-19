@@ -13,11 +13,22 @@
     }
 
     .header {
-        align-items: center;
-        display: flex;
-        justify-content: space-between;
         margin-top: 20px;
         margin-bottom: 30px;
+
+        * + * {
+            margin-top: rem(20px);
+
+            @media (min-width: 350px) {
+                margin-top: 0;
+            }
+        }
+
+        @media (min-width: 350px) {
+            align-items: center;
+            display: flex;
+            justify-content: space-between;
+        }
 
         @media (min-width: 768px) {
             margin-bottom: 40px;
